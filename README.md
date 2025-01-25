@@ -2,6 +2,13 @@
 
 Welcome to **Women Who Work**, a community-driven platform designed to support women who are re-entering the workforce after a career break. This website provides resources and a space for personal growth, skill development, networking, and mentorship to help women achieve their professional goals.
 
+# A Dual Platform for Growth and Socializing
+The Women Who Work website stands out by offering two complementary paths:
+
+Rebuild Path – Focused on professional growth, this section offers resources like mock interviews, networking practice rooms, workshops, and personalized learning programs to help women re-enter the workforce confidently.
+Join Path – A social platform that allows women to connect with like-minded individuals, create support groups, and find mentors—women who have successfully returned to work. This community-oriented approach provides emotional support, guidance, and networking opportunities essential for navigating the journey back to the workforce.
+These dual paths cater to both individual development and community engagement, making it a one-stop platform for women seeking a career returnship.
+
 ## Features
 
 ### 1. **Rebuild Page**
