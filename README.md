@@ -1,7 +1,3 @@
-Certainly! Here's a draft of a README file for your community website project:
-
----
-
 # Women Who Work - Community Website
 
 Welcome to **Women Who Work**, a community-driven platform designed to support women who are re-entering the workforce after a career break. This website provides resources and a space for personal growth, skill development, networking, and mentorship to help women achieve their professional goals.
