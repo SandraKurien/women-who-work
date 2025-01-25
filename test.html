@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="stylestest.css" />
+    <title>Web Design Mastery | WWW</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Women Who Work</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Success Stories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="header.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Ready to return to THE HUSTLE? </h1>
+          <p>
+            Welcome to the movement driven by women making a comeback to the hive.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <div>
+          <h2 class="section__header">About us</h2>
+          <p class="section__description">
+            At WWW, we are dedicated to empowering women who are re-entering the workforce after a career break. Our mission is to create a supportive, inclusive space that helps women regain confidence, upskill, and find meaningful career opportunities.
+        </p>
+    </div>
+  </div>
+  <div class="about__content">
+    <div class="about__image">
+      <img src="about.avif" alt="about" />
+    </div>
+    <div class="about__grid">
+      <div class="about__card">
+        <h3>1.</h3>
+            <h4>Who we are</h4>
+            <p>
+                We’re a supportive space for women ready to kick-start their careers after a break.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>2.</h3>
+            <h4>What do we do</h4>
+            <p>
+                We offer courses, mentorship, and flexible job opportunities to help you bounce back stronger.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>3.</h3>
+            <h4>How do we help</h4>
+            <p>We build your skills, boost your confidence, and connect you with the right opportunities.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>4.</h3>
+            <h4>When can we start</h4>
+            <p>Start anytime—your career comeback begins right here, right now!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="product-section" id="product">
+        <h2 class="product-section__header">Sucess Stories</h2>
+        <p class="section__description">
+            We've added inspiring success stories to the platform, showcasing the incredible achievements of our community. These stories highlight real journeys and the impact of hard work and dedication. Explore them now to get motivated and see what's possible!
+        </p>
+        <div class="product-section__container">
+            <input type="radio" name="product-slide" id="c1" checked>
+            <label for="c1" class="product-card">
+                <div class="product-card__row">
+                    <div class="product-card__icon">1</div>
+                    <div class="product-card__description">
+                        <h4>Falguni Nayar</h4>
+                        <p>"I wanted to be my own boss." <br>
+                        <p>Founder & CEO of Nykaa</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="product-slide" id="c2">
+            <label for="c2" class="product-card">
+                <div class="product-card__row">
+                    <div class="product-card__icon">2</div>
+                    <div class="product-card__description">
+                        <h4>Dr. Tessy Thomas</h4>
+                        <p>"Do not let any stereotype define your potential." <br>
+                            <p>Director General of Aeronautical Systems, DRDO (India's "Missile Woman")</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="product-slide" id="c3">
+            <label for="c3" class="product-card">
+                <div class="product-card__row">
+                    <div class="product-card__icon">3</div>
+                    <div class="product-card__description">
+                        <h4>Kiran Mazumdar-Shaw</h4>
+                        <p>"Success is not a result of spontaneous combustion. You must set yourself on fire." <br>
+                            <p>Chairperson and Managing Director of Biocon</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="product-slide" id="c4">
+            <label for="c4" class="product-card">
+                <div class="product-card__row">
+                    <div class="product-card__icon">4</div>
+                    <div class="product-card__description">
+                        <h4>Anjali Bansal</h4>
+                        <p>"The world is changing rapidly, and we must continue to evolve to stay ahead." <br>
+                            <p>Founder and Chairperson of Avaana Capital</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </section>
+    
+    
+    
+
+    <section class="section__container client__container">
+      <div class="client__content">
+        <h2 class="section__header">What our happy client say</h2>
+        <p class="section__description">
+          Testimonials Highlighting Our Commitment to Progess, Results , and  Satisfaction
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="user.jpg" alt="user" />
+                <div>
+                  <p>
+                    "I never thought I could return to my career after a 5-year break, but WWW made it so much easier! The upskilling courses gave me the confidence to learn new skills, and the mentorship program connected me with an inspiring woman leader who guided me every step of the way. I found a flexible job that perfectly fits my lifestyle, and I couldn’t be more excited about my new career chapter. Thank you for believing in me!"
+
+
+
+                  </p>
+                  <h4>Aisha R.</h4>
+                  <h5>Software Developer</h5>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">WWW</a>
+          </div>
+          <p>
+            Ready to restart your career? Join us today and let’s make your comeback stronger, smarter, and more confident!
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Affiliates</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Code Explorers. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="test.js"></script>
+  </body>
+</html>
